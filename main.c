@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+void greeting(void) {
     printf("Hello, World!\n");
+}
+
+int main(int argc, char *argv[]) {
+    greeting();
     return EXIT_SUCCESS;
 }
