@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void greeting(void) {
-    printf("Hello, World!\n");
+    printf("Hello, (new and improved) world!\n");
 }
 
 void dev_greeting(void) {
